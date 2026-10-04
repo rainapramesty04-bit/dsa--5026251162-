@@ -1,6 +1,6 @@
 package lw02.prelab;
 
-import java.util.*;
+import java.util.*; //22
 
 public class Main {
     public static void main (String[] args) {
@@ -9,11 +9,11 @@ public class Main {
         LinkedList <String[]> transactions = new LinkedList<>();
         LinkedList <String[]> customersData = new LinkedList<>();
 
-        Queue <String[]> process = new LinkedList<>();
-        Stack <String[]> failed = new Stack<>();
+        Queue <String[]> process = new LinkedList<>(); //process transa
+        Stack <String[]> failed = new Stack<>(); 
 
         while (sc.hasNext()) {
-            while(sc.hasNext()){
+            while(sc.hasNext()){  
             String[] transaction = new String[3];
             transaction[0] = sc.next(); //name
             transaction[1] = sc.next(); //type
